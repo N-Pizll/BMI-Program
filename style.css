@@ -1,0 +1,72 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+  background-image: url(original-85caf1e81d666bb4a4a2cadd4c74dc61.png);
+}
+input::-webkit-inner-spin-button {
+  display: none;
+}
+#formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.365);
+}
+#bmiForm {
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.53);
+  width: 450px;
+  height: 100%;
+  border-radius: 5px;
+}
+#formTitle {
+  text-align: center;
+}
+.straightLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0 5px 0;
+}
+
+.straightLine div {
+  height: 4px;
+  width: 385px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.inputContainer input {
+  margin-left: 100px;
+  border-radius: 3px;
+  border: 0px;
+  padding: 6px;
+}
+
+#bmiAnswerButton {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#bmiAnswerButton button {
+  border-radius: 5px;
+  border: none;
+  width: 350px;
+  height: 45px;
+  cursor: pointer;
+}
+#bmiAnswerButton button:hover {
+  background-color: rgb(218, 218, 219);
+  transition: all 0.2s ease-in;
+}
+#bmiAnswer {
+  text-align: center;
+}
