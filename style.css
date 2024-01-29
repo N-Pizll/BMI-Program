@@ -34,7 +34,7 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 0 5px 0;
+  padding: 10px 0 10px 0;
 }
 
 .inputContainer {
@@ -78,4 +78,31 @@ input::-webkit-inner-spin-button {
 
 #bmiAnswer {
   text-align: center;
+}
+
+#fatherOfResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#results {
+  width: 350px;
+  max-width: 100%;  
+  height: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  min-height: 46px;
+}
+
+#results p{
+  max-width: 90%;
+  word-wrap: break-word; 
 }
